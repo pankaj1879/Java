@@ -1,0 +1,20 @@
+package Basic;
+
+import java.util.Scanner;
+
+public class revAnumber {
+    public static void main(String[] args) {
+        System.out.print("Enter a Number ");
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        int rev,ans=0;
+        while(num>0){
+            rev=num%10;
+            num=num/10;
+            ans=ans*10+rev;
+        }
+        System.out.println("Reverse of Number is "+ans);
+        sc.close();
+    }
+    
+}
