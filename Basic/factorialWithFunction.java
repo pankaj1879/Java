@@ -16,5 +16,4 @@ public class factorialWithFunction {
         fact(num);
         sc.close();
     }
-    
 }
