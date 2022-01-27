@@ -13,6 +13,9 @@ public class reverseArray {
         for(int i=0;i<num;i++){
             arr[i]=sc.nextInt();
         }
+        // for(int i=num-1;i>=0;i--){
+        //     newarr[i]=arr[num-i-1];
+                    //OR
         int j=num;
         for(int i=0;i<arr.length;i++){
             newarr[j-i-1]=arr[i];
